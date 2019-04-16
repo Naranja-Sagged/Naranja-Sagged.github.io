@@ -1,7 +1,7 @@
 body {
     margin:0;
     background: #FFEDF7;
-    background-image: url("crabdance.gif"); /*Ok this is epic. */
+    background-image: url("images/crabdance.gif"); /*Ok this is epic. */
 }
 
 header {
@@ -104,6 +104,11 @@ nav ul li a {
 
 .projects div ul a {
     color: white;
+}
+
+.other video {
+    display: block;
+    margin: 50px auto;
 }
 
 footer {
