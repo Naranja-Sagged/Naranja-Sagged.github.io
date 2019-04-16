@@ -42,15 +42,20 @@ nav ul li a {
     margin-right: auto;
     margin-top: 50px;
     margin-bottom: 50px;
+    border-radius: 10px;
+}
+
+.greeting div {
+    padding: 15px 30px 15px 30px;
 }
 
 .col {
     background: #FF969D;
     color: white;
     float: left;
-    border-radius: 5px;
+    border-radius: 10px;
     width: 31%;
-    margin: .5%;
+    margin: .65%;
     padding: .5%;
     height: 200px;
 }
@@ -60,6 +65,44 @@ nav ul li a {
     width: 95%;
     padding: 10px;
     border-radius: 20px;
+}
+
+.about {
+    background: #FF969D;
+    color: white;
+    border-radius: 10px;
+    width: 31%;
+    margin: 10px;
+}
+
+.about div {
+    color: white;
+    padding: 5px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.about div p a {
+    color: white;
+}
+
+.projects {
+    background: #FF969D;
+    color: white;
+    border-radius: 10px;
+    width: 31%;
+    margin: 10px;
+}
+
+.projects div {
+    color: white;
+    padding: 5px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.projects div ul a {
+    color: white;
 }
 
 footer {
