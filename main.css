@@ -2,3 +2,12 @@ body {
     background:#ffd1dc;
     font-family:"Comic Sans MS" /* change this later .. ... . . lmao*/
 }
+
+h1 {
+    background:#FFABBA;
+    padding:10px;
+}
+
+p, li {
+    background:#FFD8E0;
+}
