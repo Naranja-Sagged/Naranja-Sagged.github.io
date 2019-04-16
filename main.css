@@ -1,13 +1,67 @@
 body {
-    background:#ffd1dc;
-    font-family:"Comic Sans MS" /* change this later .. ... . . lmao*/
+    margin:0;
+    background: #FFEDF7;
 }
 
-h1 {
-    background:#FFABBA;
-    padding:10px;
+header {
+    background: #FFD3DC;
+    padding: 7px 21px 0px 21px;
 }
 
-p, li {
-    background:#FFD8E0;
+header h1 {
+    margin: 0;
+    display: inline;
+}
+
+nav ul {
+    margin: 0;
+    display: inline;
+    padding: 0px 0px 0px 21px;
+}
+
+nav ul li {
+    background: #FF969D;
+    color: white;
+    display: inline-block;
+    list-style-type: none;
+    padding: 7px 21px;
+    border-radius: 5px;
+}
+
+nav ul li a {
+    color: white;
+}
+
+.greeting {
+    background: #FF969D;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    width:60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.col {
+    background: #FF969D;
+    color: white;
+    float: left;
+    border-radius: 5px;
+    width: 31%;
+    margin: .5%;
+    padding: .5%;
+    height: 200px;
+}
+
+.col img {
+    height: 90%;
+    width: 95%;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+footer {
+    clear: both;
 }
