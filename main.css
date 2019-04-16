@@ -4,6 +4,14 @@ body {
     background-image: url("images/crabdance.gif"); /*Ok this is epic. */
 }
 
+header a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+}
+
 header {
     background: #FFD3DC;
     padding: 7px 21px 0px 21px;
@@ -101,6 +109,10 @@ nav ul li a {
     color: white;
 }
 
+.about div p a:hover {
+    color: black;
+}
+
 .projects {
     background: #FF969D;
     color: white;
@@ -120,6 +132,10 @@ nav ul li a {
 
 .projects div ul a {
     color: white;
+}
+
+.projects div ul a:hover {
+    color: black;
 }
 
 .other video {
