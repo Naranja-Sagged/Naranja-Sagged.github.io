@@ -44,24 +44,30 @@ nav ul li a {
     margin-top: 50px;
     margin-bottom: 50px;
     border-radius: 10px;
+    border-style: dotted;
+    border-color: white;
 }
 
 .greeting div {
     padding: 15px 30px 15px 30px;
 }
 
-.col {
-    background: #FF969D;
-    color: white;
-    float: left;
-    border-radius: 10px;
-    width: 31%;
-    margin: .65%;
-    padding: .5%;
-    height: 200px;
+.gifs {
+    display: flex;
+    flex-direction: row;
 }
 
-.col img {
+.gifs div {
+    background: #FF969D;
+    border-radius: 10px;
+    width: 32%;
+    height: 200px;
+    margin: auto;
+    border-style: dotted;
+    border-color: white;
+}
+
+.gifs div img {
     height: 90%;
     width: 95%;
     padding: 10px;
@@ -74,6 +80,8 @@ nav ul li a {
     border-radius: 10px;
     width: 31%;
     margin: 10px;
+    border-style: dotted;
+    border-color: white;
 }
 
 .about div {
@@ -93,6 +101,8 @@ nav ul li a {
     border-radius: 10px;
     width: 31%;
     margin: 10px;
+    border-style: dotted;
+    border-color: white;
 }
 
 .projects div {
@@ -112,5 +122,6 @@ nav ul li a {
 }
 
 footer {
+    color: white;
     clear: both;
 }
