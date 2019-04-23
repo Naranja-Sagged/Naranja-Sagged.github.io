@@ -71,7 +71,7 @@ nav ul li a {
     flex-direction: row;
 }
 
-.gifs div {
+.gifs figure {
     background: #FF969D;
     border-radius: 10px;
     width: 32%;
@@ -81,7 +81,7 @@ nav ul li a {
     border-color: white;
 }
 
-.gifs div img {
+.gifs figure img {
     height: 90%;
     width: 95%;
     padding: 10px;
