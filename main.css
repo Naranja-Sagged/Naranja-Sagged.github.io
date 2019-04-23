@@ -1,6 +1,9 @@
 body {
     margin:0;
-    background: #FFEDF7;
+    background: #FFF6FB;
+}
+
+.crab {
     background-image: url("images/crabdance.gif"); /*Ok this is epic. */
 }
 
@@ -14,7 +17,7 @@ a:hover {
 
 header {
     background: #FFD3DC;
-    padding: 7px 21px 0px 21px;
+    padding: 7px 21px 7px 21px;
 }
 
 header h1 {
@@ -44,6 +47,60 @@ nav ul li {
 
 nav ul li a {
     color: white;
+}
+
+/* BODY SECTION*/
+
+section {
+    margin-top: 50px;
+    background-color: #FFE1E9;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #FF969D;
+    font-size: 20px;
+    text-align: center;
+    height: 100%;
+    padding-top: 10px;
+    font-size: 25px;
+    overflow-y: auto;
+    padding-bottom: 10px;
+}
+
+section p {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+section h1 {
+    text-align: left;
+    margin-left: 70px;
+}
+
+a {
+    color: #008080;
+}
+
+a:hover {
+    color: black;
+}
+
+.projects h1 {
+    text-align: center;
+    margin-left: 0px;
+}
+
+.projects ul {
+    list-style-type: square;
+    text-align: left;
+    margin-left: 70px;
+}
+
+.projects ul li p {
+    margin-left: 70px;
+    width: 80%;
 }
 
 .greeting {
@@ -88,59 +145,26 @@ nav ul li a {
     border-radius: 20px;
 }
 
-.about {
-    background: #FF969D;
-    color: white;
-    border-radius: 10px;
-    width: 31%;
-    margin: 10px;
-    border-style: dotted;
-    border-color: white;
-}
-
-.about div {
-    color: white;
-    padding: 5px;
-    margin-left: 20px;
-    font-size: 20px;
-}
-
-.about div p a {
-    color: white;
-}
-
-.about div p a:hover {
-    color: black;
-}
-
-.projects {
-    background: #FF969D;
-    color: white;
-    border-radius: 10px;
-    width: 31%;
-    margin: 10px;
-    border-style: dotted;
-    border-color: white;
-}
-
-.projects div {
-    color: white;
-    padding: 5px;
-    margin-left: 20px;
-    font-size: 20px;
-}
-
-.projects div ul a {
-    color: white;
-}
-
-.projects div ul a:hover {
-    color: black;
-}
-
 .other video {
     display: block;
     margin: 50px auto;
+}
+
+/* MISC */
+
+button {
+    background-color: #FF969D;
+    border-radius: 5px;
+    border-color: #FF969D;
+    color: white;
+}
+
+button:focus {
+    outline: 0;
+}
+
+.hidden {
+    display: none;
 }
 
 footer {
