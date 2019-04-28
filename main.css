@@ -3,7 +3,7 @@ body {
     background: #FFF6FB;
     background-image: url("images/cherrybg.png");
     background-repeat: no-repeat;
-    background-position: center;
+    x
     background-size: 150%;
 }
 
@@ -230,5 +230,6 @@ footer {
 
     body {
         background-size: 200%;
+        background-position: top;
     }
 }
