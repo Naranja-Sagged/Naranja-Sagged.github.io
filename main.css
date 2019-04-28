@@ -17,7 +17,7 @@ a:hover {
 
 header {
     background: #FFD3DC;
-    padding: 7px 21px 7px 21px;
+    padding: 7px 21px 7px 21px;  
 }
 
 header h1 {
@@ -141,13 +141,105 @@ a:hover {
 .gifs figure img {
     height: 90%;
     width: 95%;
-    padding: 10px;
-    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2vw;
 }
 
 .other video {
     display: block;
     margin: 50px auto;
+}
+
+@media screen and (min-width: 1600) {
+    /* put shit in here */
+}
+
+section {
+    max-width: 950px;
+}
+
+header {
+    background: #FFD3DC;
+    height: 7vh;
+    align-items: center;
+    padding: 0px;
+}
+
+header nav {
+    height: 100%;
+    display: inline-flex; /* add */
+    align-items: center;
+}
+
+header h1 {
+    color: white;
+    text-shadow: -0.1vw 0 #FF969D, 0 0.1vw #FF969D, 0.1vw 0 #FF969D, 0 -0.1vw #FF969D;
+    font-size: 2.25vw;
+    margin-left: 2.35vw;
+    margin-right: 2.35vw;
+}
+
+nav ul {
+    padding: 0px;
+    display: inline-flex;
+    align-items: center;
+}
+
+nav ul li {
+    background: #FF969D;
+    list-style-type: none;
+    border-radius: 0.5vw;
+    height: 4.25vh;
+    width: 12vh;
+    margin-right: 0.3vw;
+    display: flex;
+    text-align: center;
+    justify-content: center; 
+    align-items: center;
+    border-style: dotted;
+    border-color: white;
+    border-width: 0.175vw;
+    padding: 0px;
+}
+
+
+nav ul li a {
+    color: white;
+    font-size: 1.25vw;
+}
+
+.greeting {
+    margin-top: 13vh;
+    max-width: 700px;
+    margin-bottom: 13vh;
+    border-radius: 1vw;
+}
+
+.gifs {
+    display: flex;
+    flex-direction: row;
+}
+
+.gifs figure {
+    background: #FF969D;
+    border-radius: 1vw;
+    width: 600px;
+    height: 270px;
+    margin: auto;
+    border-style: dotted;
+    border-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gifs figure img {
+    height: 90%;
+    width: 95%;
+    padding: 0px;
+    border-radius: 20px;
 }
 
 /* MISC */
