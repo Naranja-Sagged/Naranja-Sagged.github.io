@@ -1,6 +1,10 @@
 body {
     margin:0;
     background: #FFF6FB;
+    background-image: url("images/cherrybg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 150%;
 }
 
 .crab {
@@ -43,7 +47,7 @@ nav ul {
 }
 
 nav ul li {
-    background: #FF969D;
+    background: #FFA2A9;
     list-style-type: none;
     border-radius: 0.5vw;
     height: 4.25vh;
@@ -81,6 +85,9 @@ section {
     font-size: 25px;
     overflow-y: auto;
     padding-bottom: 10px;
+    background-image: url("images/bgstolfo.png");
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
 section p {
