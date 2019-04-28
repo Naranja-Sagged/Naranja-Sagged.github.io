@@ -213,11 +213,18 @@ footer {
 
 /* MOBILE SUPPORT */
 
-@media screen and (max-width: 727px) {
+@media only screen and (max-width: 1000px) {
     section {
         width: 70%;
         margin-left: auto;
         margin-right: auto;
         overflow-y: auto;
+    }
+
+    .greeting {
+        width:60%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        border-radius: 10px;
     }
 }
