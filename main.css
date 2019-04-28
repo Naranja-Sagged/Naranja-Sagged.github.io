@@ -210,3 +210,14 @@ footer {
         align-items: center;
     }
 }
+
+/* MOBILE SUPPORT */
+
+@media screen and (max-width: 727px) {
+    section {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        overflow-y: auto;
+    }
+}
