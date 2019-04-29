@@ -179,6 +179,44 @@ a:hover {
     margin: 50px auto;
 }
 
+.other {
+    padding: 25px 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.other div {
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.other div button {
+    background-color: #FFA2A9;
+    color: white;
+    margin: auto;
+    width: 6vw;
+    height: 4vh;
+    font-size: 1.5vw;
+    border-style: dotted;
+    border-color: white;
+    border-width: 0.175vw;
+    border-radius: 0.5vw;
+}
+
+.other div button:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.other .hidden {
+    
+}
+
 /* MISC */
 
 button {
