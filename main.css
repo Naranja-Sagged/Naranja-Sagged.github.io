@@ -214,7 +214,34 @@ a:hover {
 }
 
 .other .hidden {
-    
+    margin-top: 25px;
+}
+
+.other .hidden ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0px;
+}
+
+.other .hidden li {
+    padding: 0px;
+    width: 29%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.6vw;
+    margin-bottom: 5%;
+    margin-left: 3.3%;
+}
+
+.other .hidden li img {
+    width: 92%;
+    height: 92%;
+    padding: 4% 4%;
+    border-radius: 1.5vw;
 }
 
 /* MISC */
