@@ -213,11 +213,11 @@ a:hover {
     cursor: pointer;
 }
 
-.other .hidden {
+.other .content {
     margin-top: 25px;
 }
 
-.other .hidden ul {
+.other .content ul {
     list-style-type: none;
     display: flex;
     flex-direction: row;
@@ -225,7 +225,7 @@ a:hover {
     padding: 0px;
 }
 
-.other .hidden li {
+.other .content li {
     padding: 0px;
     width: 29%;
     background-color: white;
@@ -237,7 +237,7 @@ a:hover {
     margin-left: 3.3%;
 }
 
-.other .hidden li img {
+.other .content li img {
     width: 92%;
     height: 92%;
     padding: 4% 4%;
