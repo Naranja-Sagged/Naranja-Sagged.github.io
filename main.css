@@ -302,6 +302,19 @@ footer {
 /* MOBILE SUPPORT */
 
 @media screen and (max-width: 1000px) {
+    header h1 {
+        font-size: 3vw;
+    }
+
+    nav ul li {
+        height: 3.5vh;
+        width: 7vh;
+    }
+
+    nav ul li a {
+        font-size: 2vw;
+    }
+
     section {
         width: 70%;
         margin-left: auto;
