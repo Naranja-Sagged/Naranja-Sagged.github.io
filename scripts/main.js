@@ -2,6 +2,11 @@ var imgTogglers = document.getElementsByClassName("toggleImg");
 var otherImages = document.getElementsByClassName("images");
 var tabSwitchers = document.getElementsByClassName("switchTab");
 var curTab = document.getElementById("pics");
+var audioPlayers = document.getElementsByClassName("playAudio");
+
+for (var i = 0; i < audioPlayers.length; ++i) {
+    audioPlayers[i].addEventListener("click", playAudio);
+}
 
 for (var i = 0; i < imgTogglers.length; ++i) {
     imgTogglers[i].addEventListener("click", toggleImg);
@@ -13,6 +18,13 @@ for (var i = 0; i < tabSwitchers.length; ++i) {
 
 window.addEventListener("load", resizeImgs);
 window.addEventListener("resize", resizeImgs);
+
+function playAudio() {
+    var audioId = this.attributes["linked-audio"].value;
+    var audio = document.getElementById(audioId);
+    var clone = audio.cloneNode(true);
+    clone.play();
+}
 
 function toggleImg() {
     var picId = this.attributes["linked-img"].value;
@@ -27,9 +39,12 @@ function toggleImg() {
 
 function resizeImgs() {
     for (var i = 0; i < otherImages.length; ++i) {
+        if (otherImages[i].id == "sounds") { // DO NOT RESIZE SOUND BOARD FKER!!!!!
+            continue;
+        }
         var lis = otherImages[i].children;
 
-        for (var j = 0; j < lis.length; ++ j) {
+        for (var j = 0; j < lis.length; ++j) {
             lis[j].style.height = lis[j].offsetWidth + "px";
         }
     }
