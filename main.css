@@ -264,6 +264,24 @@ a:hover {
     border: none;
 }
 
+.other .content #sounds li:first-child {
+    margin-left: auto;
+    margin-right: auto;
+    background: transparent;
+    display: inline-block;
+    width: 82%;
+    height: 0vh;
+}
+
+.other .content #sounds li:first-child button {
+    width: 13%;
+    height: 2.5vh;
+    padding: 0px;
+    margin-left: 0.1vw;
+    margin-right: 0.1vw;
+    font-size: 0.85vw;
+}
+
 /* MISC */
 
 button {
