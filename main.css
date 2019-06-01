@@ -270,7 +270,7 @@ a:hover {
     background: transparent;
     display: inline-block;
     width: 82%;
-    height: 0vh;
+    height: 1vh;
 }
 
 .other .content #sounds li:first-child button {
